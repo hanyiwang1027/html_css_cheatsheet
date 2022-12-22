@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Semantic HTML Reference</h1>
+    <h2>Semantic HTML Tags</h2>
+    <table>
+      <thead>
+        <tr>
+          <th class="tag">Tag</th>
+          <th class="name">Name</th>
+          <th class="description">Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <span class="code">&#60;header&#62;</span>
+          </td>
+          <td>header section</td>
+          <td>
+            represents introductory content, typically a group of introductory
+            or navigational aids
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span class="code">&#60;nav&#62;</span>
+          </td>
+          <td>navigation section</td>
+          <td>
+            encapsulates the page’s navigational links; often placed inside
+            the &#60;header&#62; or &#60;footer&#62;
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span class="code">&#60;main&#62;</span>
+          </td>
+          <td>main section</td>
+          <td>
+            represents the dominant content of the &#60;body&#62; of a document
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span class="code">&#60;footer&#62;</span>
+          </td>
+          <td>footer section</td>
+          <td>
+            includes the page’s footer content at the bottom of
+            the &#60;body&#62;
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span class="code">&#60;video&#62;</span>
+          </td>
+          <td>video embed element</td>
+          <td>
+            embeds a media player which supports video playback into the
+            document
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span class="code">&#60;audio&#62;</span>
+          </td>
+          <td>audio embed element</td>
+          <td>
+            embeds sound content in documents; may contain one or more audio
+            sources
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span class="code">&#60;embed&#62;</span>
+          </td>
+          <td>embed external content element</td>
+          <td>implements any type of media</td>
+        </tr>
+        <tr>
+          <td>
+            <span class="code">&#60;figure&#62;</span>
+          </td>
+          <td>figure with optional caption element</td>
+          <td>encapsulates media such as an image, diagram, or code snippet</td>
+        </tr>
+        <tr>
+          <td>
+            <span class="code">&#60;figcaption&#62;</span>
+          </td>
+          <td>figure caption</td>
+          <td>
+            describes the media encapsulated within the &#60;figure&#62; element
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span class="code">&#60;section&#62;</span>
+          </td>
+          <td>generic section element</td>
+          <td>
+            defines elements in a document, such as chapters, headings, or any
+            other area of the document with the same theme
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span class="code">&#60;article&#62;</span>
+          </td>
+          <td>article conent element</td>
+          <td>
+            holds content that makes sense on its own such as articles, blogs,
+            and comments
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span class="code">&#60;aside&#62;</span>
+          </td>
+          <td>aside element</td>
+          <td>
+            marks additional information that can enhance another element but
+            isn’t required in order to understand the main content
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <section></section>
+    
+    <h2>Semantic HTML Attributes</h2>
+    <table>
+      <thead>
+        <tr>
+          <th class="attribute">Attribute</th>
+          <th class="name">Name</th>
+          <th class="description">Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <span class="code">controls</span>
+          </td>
+          <td>controls</td>
+          <td>
+            the browser will offer controls to allow the user to control video
+            playback, including volume, seeking, and pause/resume playback
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span class="code">loop</span>
+          </td>
+          <td>loop</td>
+          <td>
+            the browser will automatically seek back to the start upon reaching
+            the end of the video
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span class="code">muted</span>
+          </td>
+          <td>muted</td>
+          <td>the audio will be initially silenced</td>
+        </tr>
+        <tr>
+          <td>
+            <span class="code">src</span>
+          </td>
+          <td>source</td>
+          <td>the URL of the video to embed</td>
+        </tr>
+        <tr>
+          <td>
+            <span class="code">height</span>
+          </td>
+          <td>height</td>
+          <td>the height of the video's display area, in CSS pixels</td>
+        </tr>
+        <tr>
+          <td>
+            <span class="code">width</span>
+          </td>
+          <td>width</td>
+          <td>the width of the video's display area, in CSS pixels</td>
+        </tr>
+        <tr>
+          <td>
+            <span class="code">type</span>
+          </td>
+          <td>type</td>
+          <td>The MIME type to use to select the plug-in to instantiate</td>
+        </tr>
+        <tr>
+          <td>
+            <span class="code">alt</span>
+          </td>
+          <td>alternate</td>
+          <td>
+            provides fallback text to display when the image is not loaded; a
+            property to support accessibility
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+
+    <section></section>
+
+  <footer>
+    <p>
+      A Challenge Project for Codecademy <em>FRONT-END ENGINEER</em> program by Hanyi.
+    </p>
+  </footer>
+</html>
